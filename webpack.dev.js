@@ -11,7 +11,7 @@ module.exports = merge(common, {
     }),
     new BundleAnalyzerPlugin({ openAnalyzer: false }),
   ],
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   devServer: {
     port: 3000,
     contentBase: path.join(__dirname, 'src'),
