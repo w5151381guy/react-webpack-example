@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import Timer from '../component/timer'
 
 class App extends Component {
   render() {
-    return <h4>Hello World</h4>
+    return <Timer />
   }
 }
 
